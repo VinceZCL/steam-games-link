@@ -33,5 +33,5 @@ def steamlink(links):
 filteredlinks = filter(steamlink, links)
 
 # Printing filteredlinks
-for a in filteredlinks:
-    print(a)
+for link in filteredlinks:
+    print(link)
