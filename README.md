@@ -1,7 +1,10 @@
 # steam-games-link
 
-Python code
+Python code.
 
-BeautifulSoup library
+BeautifulSoup library.
 
-Obtains steam games link from store
+This code will obtain the following and print it into the console: 
+1. Name of games
+2. Link of games
+3. Price of games
