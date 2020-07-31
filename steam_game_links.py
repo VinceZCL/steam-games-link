@@ -56,7 +56,7 @@ for num in range(0, len(new_links)):
         names.append(name_str)
 
 # Outputting all information
-for num in range(0,24):
+for num in range(0,23):
     print("Name: ")
     print(names[num])
     print("Link: ")
