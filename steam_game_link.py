@@ -67,7 +67,6 @@ for num in range(1, len(new_links)):
 
 # Function to get link
 def searchgame(game):
-
     print(names[game])
 
     chosen_game = names[game]
@@ -78,15 +77,12 @@ def searchgame(game):
     if len(split) > 2:
         second_to_last = split[len(split)-2]
         for link in new_links:
-            if first in link:
-                if last in link:
-                    if second_to_last in link:
-                        print(link)
+            if first in link and last in link  and second_to_last in link:
+                print(link)
     else:
         for link in new_links:
-            if first in link:
-                if last in link:
-                    print(link)
+            if first in link and last in link:
+                print(link)
 
 # Output
 print("----------------------------------------------------------------------------------------------------------------")
